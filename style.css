@@ -1,0 +1,126 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #222;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #e63946;
+    color: white;
+    padding: 25px;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e63946;
+    color: white;
+    border-radius: 12px;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Start Pokémon Quiz Button */
+.start-button {
+    display: inline-block;
+    background-color: #e63946;
+    color: white;
+    padding: 18px 35px;
+    margin: 25px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 3px solid #b71c1c;
+    box-shadow: 0 5px 0 #b71c1c;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #2878d0;
+    border-color: #18549a;
+    box-shadow: 0 5px 0 #18549a;
+    transform: translateY(-2px);
+}
+
+.start-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #18549a;
+}
+
+footer {
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+
+/* Pokémon Quiz Questions */
+.quiz-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Individual Questions */
+.question {
+    background-color: #e63946;
+    color: white;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Question Images */
+.question-image {
+    display: block;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    margin: 15px auto 20px;
+    max-width: 100%;
+}
+
+/* Answer Choices */
+.question label {
+    display: block;
+    text-align: left;
+    max-width: 250px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+.question input[type="radio"] {
+    margin-right: 8px;
+}
+
+.quiz-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+.question {
+    text-align: center;
+}
+
+
+.question-image {
+    display: block;
+    margin: 15px auto 20px;
+}
+
+
+.home-button {
+    display: inline-block;
+    text-align: center;
+}
