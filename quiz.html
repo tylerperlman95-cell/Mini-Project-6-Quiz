@@ -1,136 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Trainer Quiz</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Pokémon Evolution Quiz</h1>
         <p>Prove that you're a real Pokémon trainer!</p>
-       <a href="index.html" class="start-button">Home</a>
+        <a href="index.html" class="start-button">Home</a>
     </header>
 
     <main class="quiz-container">
         <form id="quiz-form">
-    
+
             <section class="question">
                 <h2>1. What does Squirtle evolve into?</h2>
-            <img src="images/squirtle.jpg" alt="Picture of Squirtle"
-             class="question-image">
-                     <label><input type="radio" name="q1" value="a"> A. Blastoise</label>
+                <img src="images/squirtle.jpg" alt="Picture of Squirtle" class="question-image">
+                <label><input type="radio" name="q1" value="a"> A. Blastoise</label>
                 <label><input type="radio" name="q1" value="b"> B. Wartortle</label>
                 <label><input type="radio" name="q1" value="c"> C. Lapras</label>
                 <label><input type="radio" name="q1" value="d"> D. Gyarados</label>
 
-            </section> 
+            </section>
 
-            <section class="question"> 
+            <section class="question">
                 <h2>2. What does Charmander evolve into?</h2>
-                <img src="images/charmander.jpg" alt="Picture of Charmander"
-                class="question-image">
-                
-                 <label>
-                <input type="radio" name="q2" value="a">
-                 A. Arcanine
-             </label>
-             <label>
-           <input type="radio" name="q2" value="b">
-          B. Dragonite
-         </label>
-         <label>
-        <input type="radio" name="q2" value="c">
-        C. Charmeleon
-    </label>
+                <img src="images/charmander.jpg" alt="Picture of Charmander" class="question-image">
 
-        <label>
-      <input type="radio" name="q2" value="d">
-    D. Charizard
-        </label>
-    </section>
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    A. Arcanine
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    B. Dragonite
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    C. Charmeleon
+                </label>
 
-        <section class="question">
-    <h2>3. What does Bulbasaur evolve into?</h2>
-    <img src="images/bulbasaur.jpg" alt="Picture of Bulbasaur"
-    class="question-image">
+                <label>
+                    <input type="radio" name="q2" value="d">
+                    D. Charizard
+                </label>
+            </section>
 
-        <label>
-        <input type="radio" name="q3" value="a">
-        A. Ivysaur
-    </label>
-    <label>
-        <input type="radio" name="q3" value="b">
-        B. Venusaur
-    </label>
-    <label>
-        <input type="radio" name="q3" value="c">
-        C. Oddish
-    </label>
+            <section class="question">
+                <h2>3. What does Bulbasaur evolve into?</h2>
+                <img src="images/bulbasaur.jpg" alt="Picture of Bulbasaur" class="question-image">
 
-    <label>
-    <input type="radio" name="q3" value="d">
-    D. Snivy
-</label>
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    A. Ivysaur
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    B. Venusaur
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    C. Oddish
+                </label>
 
-</section>
+                <label>
+                    <input type="radio" name="q3" value="d">
+                    D. Snivy
+                </label>
 
-<section class="question">
-    <h2>4. What does Luxio evolve into?</h2>
-    <img src="images/luxio.jpg" alt="Picture of Luxio"
-    class="question-image">
+            </section>
 
-    <label>
-        <input type="radio" name="q4" value="a">
-        A. Jolteon
-    </label>
-    <label>
-        <input type="radio" name="q4" value="b">
-        B. Luxray
-    </label>
-    <label>
-        <input type="radio" name="q4" value="c">
-        C. Raichu
-    </label>
-   <label>
-    <input type="radio" name="q4" value="d">
-    D. Electabuzz
-</label>
-</section>
+            <section class="question">
+                <h2>4. What does Luxio evolve into?</h2>
+                <img src="images/luxio.jpg" alt="Picture of Luxio" class="question-image">
 
-<section class="question">
-    <h2>5. Which of these Pokémon can Eevee evolve into?</h2>
-    
-    <img src="images/eevee.jpg" alt="Picture of Eevee"
-    class="question-image">
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    A. Jolteon
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    B. Luxray
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    C. Raichu
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="d">
+                    D. Electabuzz
+                </label>
+            </section>
 
-    <label>
-        <input type="radio" name="q5" value="a">
-        A. Lucario
-    </label>
-    <label>
-        <input type="radio" name="q5" value="b">
-        B. Vaporeon
-    </label>
-    <label>
-        <input type="radio" name="q5" value="c">
-        C. Charmeleon
-    </label>
+            <section class="question">
+                <h2>5. Which of these Pokémon can Eevee evolve into?</h2>
 
-    <label>
-    <input type="radio" name="q5" value="d">
-    D. Dragonite
-</label>
-</section>
-<div id="score-container">
-    <h2>Your Total Score</h2>
-    <p id="score">Submit your answers to see your score!</p>
-</div>
-<button type="submit">Submit Quiz</button>
-<button type="button" id="restart-button">Restart Quiz</button>
-    </form>
+                <img src="images/eevee.jpg" alt="Picture of Eevee" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Lucario
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Vaporeon
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Charmeleon
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Dragonite
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>6. Which of these Pokémon can Mew evolve into?</h2>
+
+                <img src="images/Mew.jpg" alt="Picture of Mew" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Gengar
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Greninja
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Mewtwo
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Mew does not evolve
+                </label>
+            </section>
+
+
+            <section class="question">
+                <h2>7. Which of these Pokémon can Riolu evolve into?</h2>
+
+                <img src="images/riolu.jpg" alt="Picture of Riolu" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Machamp
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Lucario
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Blaziken
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Hitmonlee
+                </label>
+            </section>
+
+
+            <section class="question">
+                <h2>8. Which of these Pokémon can Magikarp evolve into?</h2>
+
+                <img src="images/magikarp.jpg" alt="Picture of Magikarp" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Gyarados
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Lapras
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Piplup
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Poliwag
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>9. Which of these Pokémon can Gible evolve into?</h2>
+
+                <img src="images/gible.jpg" alt="Picture of Gible" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Axew
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Bagon
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Gabite
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Deino
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>10. Which of these Pokémon can Axew evolve into?</h2>
+
+                <img src="images/axew.jpg" alt="Picture of Riolu" class="question-image">
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Rowlet
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Fuecoco
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    C. Fennekin
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    D. Fraxure
+                </label>
+            </section>
+            <div id="score-container">
+                <h2>Your Total Score</h2>
+                <p id="score">Submit your answers to see your score!</p>
+            </div>
+            <button type="submit">Submit Quiz</button>
+            <button type="button" id="restart-button">Restart Quiz</button>
+        </form>
     </main>
-    <script src="script.js"></script>
-    </body>
-    </html>
+
+</body>
+
+</html>
